@@ -1,0 +1,59 @@
+\doxysection{C\+:/\+Users/rakes/source/repos/\+Visitors/\+Visitors.cpp File Reference}
+\hypertarget{_visitors_8cpp}{}\label{_visitors_8cpp}\index{C:/Users/rakes/source/repos/Visitors/Visitors.cpp@{C:/Users/rakes/source/repos/Visitors/Visitors.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$unordered\+\_\+map$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{_visitors_8cpp_a04ecfa871d146663eb3da92284d6cd9a}{tokenize}} (const std\+::string \&s, char delimiter)
+\begin{DoxyCompactList}\small\item\em This will return a vector of tokens (i.\+e. strings) using a string based on a delimiter. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_visitors_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em This program will return maximum number of visitors along with the corresponding time range based on the visitors\textquotesingle{} in-\/out time provided in an input text file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_visitors_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\label{_visitors_8cpp_a0ddf1224851353fc92bfbff6f499fa97} 
+\index{Visitors.cpp@{Visitors.cpp}!main@{main}}
+\index{main@{main}!Visitors.cpp@{Visitors.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+This program will return maximum number of visitors along with the corresponding time range based on the visitors\textquotesingle{} in-\/out time provided in an input text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc represents program argument count} & \\
+\hline
+{\em argv represnts program arguments along with program name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+program exit code
+\end{DoxyReturn}
+\Hypertarget{_visitors_8cpp_a04ecfa871d146663eb3da92284d6cd9a}\label{_visitors_8cpp_a04ecfa871d146663eb3da92284d6cd9a} 
+\index{Visitors.cpp@{Visitors.cpp}!tokenize@{tokenize}}
+\index{tokenize@{tokenize}!Visitors.cpp@{Visitors.cpp}}
+\doxysubsubsection{\texorpdfstring{tokenize()}{tokenize()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ tokenize (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{s,  }\item[{char}]{delimiter }\end{DoxyParamCaption})}
+
+
+
+This will return a vector of tokens (i.\+e. strings) using a string based on a delimiter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s is the source string which needs to be extracted} & \\
+\hline
+{\em delimiter is used to find tokens based on this} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector of strings 
+\end{DoxyReturn}
